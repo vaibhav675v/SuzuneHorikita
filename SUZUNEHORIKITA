@@ -37,7 +37,7 @@ _set_bot () {
     cd $arraypath
     echo "••• Starting Suzune Bot ••• "
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    python3 -m ArrayCore
+    python3 -m SuzuneHorikita
 }
 
 _set_bot
