@@ -65,17 +65,17 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/SuzuneHorikita 
-RUN git clone -b main https://github.com/desinobita/SuzuneHorikita /root/SuzuneHorikita
-WORKDIR /root/SuzuneHorikita
+RUN git clone -b main https://github.com/desinobita/SuzuneHorikita /root/Suzune
+WORKDIR /root/Suzune
 
 
 #Copy config file to /root/SuzuneHorikita/SuzuneHorikita
-COPY ./SuzuneHorikita/config.py ./SuzuneHorikita/config.py* /root/SuzuneHorikita/SuzuneHorikita/
+COPY ./Suzune/config.py ./Suzune/config.py* /root/SuzuneHorikita/Suzune/
 
 ENV PATH="/home/bot/bin:$PATH"
 
 # Install requirements
-RUN pip3 install -U -r requirements.txt.kibhosdi
+RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
 CMD ["python3","-m","SuzuneHorikita"]
