@@ -59,3 +59,4 @@ html2text
 youtube-search-python
 python-arq
 youtube-dl
+wget
