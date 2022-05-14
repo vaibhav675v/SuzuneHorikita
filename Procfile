@@ -1,1 +1,1 @@
-worker: python3 -m Lion.py
+worker: bash Lion
