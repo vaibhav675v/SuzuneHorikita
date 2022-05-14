@@ -1,1 +1,1 @@
-worker: bash SUZUNEHORIKITA
+worker: bash Lion.py
