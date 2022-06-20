@@ -81,10 +81,10 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 pic_list = [
-    "https://te.legra.ph/file/dd1edbad33718b9521d31.jpg",
-    "https://te.legra.ph/file/79092be2eeb4668a9e3be.jpg",
-    "https://te.legra.ph/file/549704a3754fcc7ca5e74.jpg",
-    "https://te.legra.ph/file/289f112b6f16edc9e11bc.jpg",
+    "https://telegra.ph/file/66c54c237863b12df7685.jpg",
+    "https://telegra.ph/file/0dba54f561db5a267840c.jpg",
+    "https://telegra.ph/file/47904af2e1f0c44af79b0.jpg",
+    "https://telegra.ph/file/253bf43da427fe1efc449.jpg",
     "https://te.legra.ph/file/517e2d114390df1a9a7aa.jpg",
     "https://te.legra.ph/file/8654c27dc2282f542d870.jpg",
     "https://te.legra.ph/file/cf83af6cb6a99e8c19a7e.jpg",
