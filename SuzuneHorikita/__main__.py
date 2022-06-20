@@ -85,14 +85,9 @@ pic_list = [
     "https://telegra.ph/file/0dba54f561db5a267840c.jpg",
     "https://telegra.ph/file/47904af2e1f0c44af79b0.jpg",
     "https://telegra.ph/file/253bf43da427fe1efc449.jpg",
-    "https://te.legra.ph/file/517e2d114390df1a9a7aa.jpg",
-    "https://te.legra.ph/file/8654c27dc2282f542d870.jpg",
-    "https://te.legra.ph/file/cf83af6cb6a99e8c19a7e.jpg",
-    "https://te.legra.ph/file/c65c872745c4961474ce4.jpg",
-    "https://te.legra.ph/file/d87f588763a834aa77aa4.jpg",
-    "https://te.legra.ph/file/d9eb3ede71879999bfaac.jpg",
-    "https://te.legra.ph/file/562396308049c01531315.jpg",
-    "https://te.legra.ph/file/c941d5cf0c8910c38ab2c.jpg",
+    "https://telegra.ph/file/ef001ecf3ebb824b3635c.jpg",
+    "https://telegra.ph/file/9ce99711bc0a45c4126cd.jpg",
+    "https://telegra.ph/file/50a5cbdb5c7aabb920c29.jpg",
 ]
     
 
