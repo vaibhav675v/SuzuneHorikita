@@ -244,7 +244,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Suzune_Support ")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/x0x_VAIBHAV_x0x")]]
             ),
         )
         
@@ -411,7 +411,7 @@ def SuzuneHorikitarobot_about_callback(update, context):
                 timeout=60,
                 disable_web_page_preview=False,
         )
-    elif query.data == "SuzuneHorikitarobot_basichelp":
+    elif query.data == "WRENCH_basichelp":
         query.message.edit_text(
             text=f"*Here's basic Help regarding* *How to use Me?*"
             
@@ -425,15 +425,15 @@ def SuzuneHorikitarobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Aᴅᴍɪɴ", callback_data="SuzuneHorikitarobot_admin"),
-                    InlineKeyboardButton(text="Nᴏᴛᴇꜱ", callback_data="SuzuneHorikitarobot_notes"),
+                    InlineKeyboardButton(text="Aᴅᴍɪɴ", callback_data="WRENCH_admin"),
+                    InlineKeyboardButton(text="Nᴏᴛᴇꜱ", callback_data="WRENCH_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="SuzuneHorikitarobot_support"),
-                    InlineKeyboardButton(text="Cʀᴇᴅɪᴛ", callback_data="SuzuneHorikitarobot_credit"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="WRENCH_support"),
+                    InlineKeyboardButton(text="Cʀᴇᴅɪᴛ", callback_data="WRENCH_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="SuzuneHorikitarobot_back"),
+                    InlineKeyboardButton(text="Back", callback_data="WRENCH_back"),
                  
                  ]
                 ]
@@ -443,7 +443,7 @@ def SuzuneHorikitarobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n Congragulations, SuzuneHorikitaRobot now ready to manage your group."
+            f"\n Congragulations, wrench now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\n Basic Admin tools help you to protect and powerup your group."
             f"\n You can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -478,8 +478,8 @@ def SuzuneHorikitarobot_about_callback(update, context):
             f"\n\n 2.) then promote me as admin and give all permissions except anonymous admin."
             f"\n\n 3.) add @SuzuneHorikitaPlugin to your group:"
             f"\n\n 4.) turn on the video chat first before start to play music."
-            f"\n\n *Lets Enjoy The SuzuneHorikita Music And Join Support Group @Suzune_Support *"
-            f"\n\n*By Suzune Team~*",
+            f"\n\n *Lets Enjoy The WRENCH Music And Join Support Group @DESTROY_IN_SECOND *"
+            f"\n\n*By WRENCH Team~*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -490,7 +490,7 @@ def SuzuneHorikitarobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n Congragulations, SuzuneHorikitaRobot now ready to manage your group."
+            f"\n Congragulations, wrench now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\n Basic Admin tools help you to protect and powerup your group."
             f"\n You can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -512,12 +512,12 @@ def SuzuneHorikitarobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/SuzuneHorikitaLogs"),
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/Suzune_Support "),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/DESTROY_IN_SECOND"),
+                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/DESTROY_IN_SECOND "),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Suzune_Support "),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/SuzuneSuperbot "),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/DESTROY_IN_SECOND "),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/DESTROY_IN_SECOND "),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="SuzuneHorikitarobot_basichelp"),
@@ -535,12 +535,12 @@ def SuzuneHorikitarobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Venom", url="t.me/TheVenomXD"),
-                    InlineKeyboardButton(text="RiZoel", url="t.me/TheRiZoeL"),
+                    InlineKeyboardButton(text="VAIBHAV", url="t.me/x0x_VAIBHAV_x0x"),
+                    InlineKeyboardButton(text="VAIBHAV", url="t.me/x0x_VAIBHAV_x0x"),
                  ],
                  [
-                    InlineKeyboardButton(text="Kawaki", url="t.me/SimpleAsFuckAyanokojiOpp"),
-                    InlineKeyboardButton(text="Dᴇ Cᴏᴅᴇ", url="https://t.me/Suzune_Support +"),
+                    InlineKeyboardButton(text="Dedsec", url="t.me/dedsec_xd"),
+                    InlineKeyboardButton(text="Dedsec", url="https://t.me/dedsec_xd +"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="SuzuneHorikitarobot_basichelp"),
@@ -556,7 +556,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..Its *SuzuneHorikitarobot*
+            text=""" Hi..Its *WRENCH*
                  \nHere is the [Owner](https://t.me/TheVenomXD) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
