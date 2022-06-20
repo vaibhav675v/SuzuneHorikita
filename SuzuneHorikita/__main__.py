@@ -105,29 +105,29 @@ Join My Updates Channel to get information on all the latest updates.
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add Me To Your Group", url="https://t.me/Suzune_Superbot?startgroup=true"),
+            text="Add Me To Your Group", url="https://t.me/DEDSEC_X_SPAM?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Support Chat", url="https://t.me/Suzune_Support"),
+        InlineKeyboardButton(text="Support Chat", url="https://t.me/DEDSEC_X_SPAM"),
         InlineKeyboardButton(
-            text="Updates Channel", url="https://t.me/SuzuneSuperbot"),
+            text="Updates Channel", url="https://t.me/DEDSEC_X_SPAM"),
     ],
     [
-        InlineKeyboardButton(text="•Source Code•", url="https://github.com/desinobita/SuzuneHorikita"),
+        InlineKeyboardButton(text="•Source Code•", url="https://github.com/vaibhav6192"),
     ],
 ]
 
 
 HELP_STRINGS = """
-* 𝐒ᴜᴢᴜɴᴇ 𝐇ᴏʀɪᴋɪᴛᴀ Is Here with
+* WRENCH Is Here with
 AI Chatbot, Anime, Music, Notes, Filters, NSFW and more!
  All commands can either be used with / or !.
- Reach out for support: @Suzune_Support.*"""
+ Reach out for support: @DEDSEC_X_SPAM.*"""
 
 
 
 DONATE_STRING = """Glad to hear you want to donate!
- @TheVenomXD """
+ @x0x_vaibhav_x0x """
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -376,8 +376,8 @@ def SuzuneHorikitarobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "SuzuneHorikitarobot_":
         query.message.edit_text(
-            text=""" *SuzuneHorikita* - A bot to manage your groups with additional features!
-            \nHere the basic help regarding use of SuzuneHorikitarobot.
+            text=""" *WRENCH* - A bot to manage your groups with additional features!
+            \nHere the basic help regarding use of @x0x_vaibhav_x0x.
             
             \nAlmost all modules usage defined in the help menu, checkout by sending /help
             \nReport error/bugs click the Button""",
@@ -387,10 +387,10 @@ def SuzuneHorikitarobot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/Suzune_Support "
+                            text="Bᴜɢ'ꜱ", url="t.me/DEDSEC_X_SPAM "
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/SuzuneSuperbot /32"
+                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/DEDSEC_X_SPAM /32"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="SuzuneHorikitarobot_back")],
@@ -417,7 +417,7 @@ def SuzuneHorikitarobot_about_callback(update, context):
             
             f"\n\n Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n After adding promote me manually with full rights for faster experience.\n"
-            f"\n Than send /admincache@SuzuneHorikitaRobot in that chat to refresh admin list in My database.\n"
+            f"\n Than send /admincache@ in that chat to refresh admin list in My database.\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
