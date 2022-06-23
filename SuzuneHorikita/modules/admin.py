@@ -945,6 +945,7 @@ __help__ = """
 ❂ /rules*:* get the rules for this chat.
 ❂ /setrules <your rules here>*:* set the rules for this chat.
 ❂ /clearrules*:* clear the rules for this chat.
+🔘 @x0x_VAIBHAV_x0x
 """
 
 SET_DESC_HANDLER = CommandHandler("setdesc", set_desc, filters=Filters.chat_type.groups, run_async=True)
