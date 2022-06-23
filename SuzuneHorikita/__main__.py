@@ -96,7 +96,7 @@ SuzuneHorikitarobot_IMG = choice(pic_list)
 PM_START_TEXT = """
 Hello Dear ♡︎ !
 
-My name is Suzune Horikita - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
+My name is ᏔᎡᎬΝᏟᎻ - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
 
 Join My Updates Channel to get information on all the latest updates.
 
