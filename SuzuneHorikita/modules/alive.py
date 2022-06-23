@@ -9,7 +9,7 @@ from SuzuneHorikita.events import register
 from SuzuneHorikita import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/6001b9d2ba6d3c183b979.mp4"
+PHOTO = "https://telegra.ph/file/37cbad1640cb2df19ff66.mp4"
 
 @register(pattern=("/alive"))
 async def awake(event):
